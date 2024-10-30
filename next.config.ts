@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+interface NextConfig {
+  reactStrictMode: boolean;
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const config: NextConfig = {
+  reactStrictMode: true,
+}
 
-export default nextConfig;
+export default config;
