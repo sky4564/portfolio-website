@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "@/app/assets/me.webp"
+import profile from "../public/me.webp"
 
 export function About() {
     return (
@@ -18,6 +18,7 @@ export function About() {
                 <div>
                     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
                         3년차 웹개발자 입니다.
+
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <h3 className="text-xl font-semibold w-full">기술 스택</h3>
