@@ -5,27 +5,33 @@ export function Contact() {
             <div className="max-w-xl mx-auto">
                 <div className="flex flex-col gap-6">
                     <a
-                        href="mailto:your.email@example.com"
+                        href="mailto:qw486512@gmail.com"
                         className="flex items-center gap-3 text-lg hover:text-blue-500"
                     >
-                        <span>📧</span> your.email@example.com
+                        <span>📧</span> qw486512@gmail.com
                     </a>
                     <a
-                        href="https://github.com/yourusername"
+                        href="tel:010-5553-0475"
+                        className="flex items-center gap-3 text-lg hover:text-blue-500"
+                    >
+                        <span>☎️</span> 010-5553-0475
+                    </a>
+                    <a
+                        href="https://github.com/sky4564"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-lg hover:text-blue-500"
                     >
                         <span>💻</span> GitHub
                     </a>
-                    <a
+                    {/* <a
                         href="https://linkedin.com/in/yourusername"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-lg hover:text-blue-500"
                     >
-                        <span>💼</span> LinkedIn
-                    </a>
+                        <span>📚</span> Blog
+                    </a> */}
                 </div>
             </div>
         </section>
