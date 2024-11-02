@@ -5,6 +5,9 @@ import { ProjectCard } from './ProjectCard';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
+// todo: vercel 올라 와있는 프로젝트 전부 등록
+// 현업에서 작업한거 올릴만한거 등록
 const projects = [
   {
     title: "영화 앱",
