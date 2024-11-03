@@ -26,7 +26,7 @@ export function About() {
 
           <div className="flex flex-wrap gap-4">
             <h3 className="text-xl font-semibold w-full">기술 스택</h3>
-            {["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "TailwindCSS", "Figma", "Git", "Jira", "Notion"].map((skill) => (
+            {["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Bun", "hono.js", "TailwindCSS", "Figma", "Git", "Jira", "Notion"].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full"

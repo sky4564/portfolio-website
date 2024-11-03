@@ -17,11 +17,11 @@ const projects = [
     link: "https://movie-app-psi-steel.vercel.app/"
   },
   {
-    title: "프로젝트 2",
-    description: "프로젝트 2에 대한 설명입니다.",
-    imageUrl: "/me.webp",
-    tags: ["Next.js", "Node.js", "MongoDB"],
-    link: "https://project2.com"
+    title: "finance-app",
+    description: "Next.js와 hono.js를 사용하여 개발한 개인 재무 관리 웹 앱입니다.",
+    imageUrl: "/finance.png",
+    tags: ["Next.js", "Bun", "hono.js", "Neon-DB", "drizzle-orm"],
+    link: "https://finance-tutorial-beta.vercel.app/"
   },
   {
     title: "프로젝트 3",
