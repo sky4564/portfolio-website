@@ -16,7 +16,7 @@ export function About() {
           />
         </div>
         <div>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+          <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 font-semibold">
             3년차 웹개발자 입니다.
             <br />
             창의적이고 사용자 친화적인 웹 경험을 만드는 것을 좋아합니다.
@@ -24,16 +24,32 @@ export function About() {
             현재는 프론트엔드 개발자로 일하고 있으며, 최근에는 백엔드 개발자로도 경험을 쌓고 있습니다.
           </p>
 
-          <div className="flex flex-wrap gap-4">
-            <h3 className="text-xl font-semibold w-full">기술 스택</h3>
-            {["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Bun", "hono.js", "TailwindCSS", "Figma", "Git", "Jira", "Notion"].map((skill) => (
-              <span
-                key={skill}
-                className="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full"
-              >
-                {skill}
-              </span>
-            ))}
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-wrap gap-4">
+              <h3 className="text-xl font-bold w-full">기술 스택</h3>
+              {["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Bun", "hono.js", "TailwindCSS", "Figma", "Git", "Jira", "Notion"].map((skill) => (
+                <span
+                  key={skill}
+                  className="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full font-semibold"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+              <h3 className="text-xl font-bold w-full">자격증</h3>
+              {[
+                "정보처리기사 (한국산업인력공단)",
+              ].map((cert) => (
+                <span
+                  key={cert}
+                  className="w-full px-8 py-4 bg-gray-100 dark:bg-gray-800 rounded-lg text-center text-lg font-semibold"
+                >
+                  {cert}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
