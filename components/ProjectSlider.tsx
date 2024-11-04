@@ -57,6 +57,10 @@ const inProgressProjects = [
   // ... 다른 진행중인 프로젝트들 ...
 ];
 
+
+//어차피 경험 프로젝트니깐 .. 배포 한거 안볼꺼 아님 
+// 그냥 이런거 했다 사진이랑 설명만 올리면 될 뜻
+
 const experiencedProjects = [
   {
     title: "RTC 기반 라이브상담",
@@ -65,6 +69,7 @@ const experiencedProjects = [
     tags: ["WebRTC", "Vue", "Node.js"],
     link: "#"
   },
+
   {
     title: "지니프릭스 쇼핑몰",
     description: "NHN Commerce API를 활용한 자체 쇼핑몰",
@@ -72,13 +77,15 @@ const experiencedProjects = [
     tags: ["Vue.js", "NHN Commerce API"],
     link: "#"
   },
+
   {
     title: "NS홈쇼핑 엔라방 커뮤니티",
     description: "NS홈쇼핑의 라이브 커머스 커뮤니티 페이지 개발",
     imageUrl: "/ns-shopping.png",
-    tags: ["Vue.js", "TypeScript", "Redux"],
+    tags: ["Vue.js"],
     link: "#"
   },
+
   {
     title: "지니게임 신맞고/판다팡",
     description: "모바일 게임 플랫폼 유지보수 및 기능 개선",
