@@ -65,7 +65,7 @@ const experiencedProjects = [
   {
     title: "RTC 기반 라이브상담",
     description: "WebRTC 기술을 활용한 실시간 상담 서비스",
-    imageUrl: "/rtc-consulting.png",
+    imageUrl: "/me.webp",
     tags: ["WebRTC", "Vue", "Node.js"],
     link: "#"
   },
@@ -73,7 +73,7 @@ const experiencedProjects = [
   {
     title: "지니프릭스 쇼핑몰",
     description: "NHN Commerce API를 활용한 자체 쇼핑몰",
-    imageUrl: "/shop.png",
+    imageUrl: "/me.webp",
     tags: ["Vue.js", "NHN Commerce API"],
     link: "#"
   },
@@ -81,7 +81,7 @@ const experiencedProjects = [
   {
     title: "NS홈쇼핑 엔라방 커뮤니티",
     description: "NS홈쇼핑의 라이브 커머스 커뮤니티 페이지 개발",
-    imageUrl: "/ns-shopping.png",
+    imageUrl: "/me.webp",
     tags: ["Vue.js"],
     link: "#"
   },
@@ -89,7 +89,7 @@ const experiencedProjects = [
   {
     title: "지니게임 신맞고/판다팡",
     description: "모바일 게임 플랫폼 유지보수 및 기능 개선",
-    imageUrl: "/genie-games.png",
+    imageUrl: "/me.webp",
     tags: ["React", "Node.js", "WebSocket"],
     link: "#"
   }
@@ -102,7 +102,7 @@ export function ProjectSlider() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     responsive: [
       {
