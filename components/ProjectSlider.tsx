@@ -20,7 +20,7 @@ const deployedProjects = [
     title: "영화 앱",
     description: "리액트와 테일윈드를 사용하여 영화 정보를 제공하는 웹 앱입니다.",
     imageUrl: "/cinema.png",
-    tags: ["React", "Tailwind"],
+    tags: ["React", "Vite"],
     link: "https://movie-app-psi-steel.vercel.app/"
   },
   {
