@@ -17,12 +17,19 @@ import 'slick-carousel/slick/slick-theme.css';
 // 지니게임 신맞고 , 판다팡 유지보수 - 배포 x  (추가작업필요..)
 const deployedProjects = [
   {
-    title: "영화 앱",
-    description: "리액트와 테일윈드를 사용하여 영화 정보를 제공하는 웹 앱입니다.",
-    imageUrl: "/cinema.png",
-    tags: ["React", "Vite"],
-    link: "https://movie-app-psi-steel.vercel.app/"
+    title: "코인거래소",
+    description: "실시간 코인 가격 정보와 차트를 제공하는 웹 앱입니다. Zustand와 React-Query를 활용하여 실시간 데이터 상태관리를 구현했습니다.",
+    imageUrl: "/crypto.png",
+    tags: ["React", "TypeScript", "Zustand", "React-Query", "TradingView.widget"],
+    link: "https://cointech-six.vercel.app/"
   },
+  // {
+  //   title: "영화 앱",
+  //   description: "리액트와 테일윈드를 사용하여 영화 정보를 제공하는 웹 앱입니다.",
+  //   imageUrl: "/cinema.png",
+  //   tags: ["React", "Vite"],
+  //   link: "https://movie-app-psi-steel.vercel.app/"
+  // },
   {
     title: "finance-app",
     description: "Next.js와 hono.js를 사용하여 개발한 개인 재무 관리 웹 앱입니다.",
@@ -80,7 +87,7 @@ const deployedProjects = [
 
 //   {
 //     title: "NS홈쇼핑 엔라방 커뮤니티",
-//     description: "NS홈쇼핑의 라이브 커머스 커뮤니티 페이지 개발",
+//     description: "NS홈쇼핑의 라이브 커머스 커뮤니티 페이지 개",
 //     imageUrl: "/me.webp",
 //     tags: ["Vue.js"],
 //     link: "#"
@@ -102,7 +109,7 @@ export function ProjectSlider() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -127,28 +134,6 @@ export function ProjectSlider() {
           ))}
         </Slider>
       </div>
-
-      {/* <div>
-        <h2 className="text-2xl font-bold mb-6 text-center">진행중인 프로젝트</h2>
-        <Slider {...settings} className="in-progress-projects">
-          {inProgressProjects.map((project, index) => (
-            <div key={index} className="px-4">
-              <ProjectCard {...project} />
-            </div>
-          ))}
-        </Slider>
-      </div> */}
-
-      {/* <div>
-        <h2 className="text-2xl font-bold mb-6 text-center">경험 프로젝트</h2>
-        <Slider {...settings} className="experienced-projects">
-          {experiencedProjects.map((project, index) => (
-            <div key={index} className="px-4">
-              <ProjectCard {...project} />
-            </div>
-          ))}
-        </Slider>
-      </div> */}
     </div>
   );
 }
