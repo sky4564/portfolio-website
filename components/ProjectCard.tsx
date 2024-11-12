@@ -13,7 +13,7 @@ export function ProjectCard({ title, description, imageUrl, tags, link }: Projec
   return (
     <Link href={link} target="_blank" rel="noopener noreferrer">
       <div className="project-card cursor-pointer" style={{ width: '100%', height: '350px', overflow: 'hidden' }}>
-        <img src={imageUrl} alt={title} className="w-full h-2/3 object-cover" />
+        <Image src={imageUrl} alt={title} className="w-full h-2/3 object-cover" />
         <div className="p-4">
           <h3 className="text-lg font-semibold">{title}</h3>
           <p className="text-sm">{description}</p>
